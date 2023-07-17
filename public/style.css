@@ -1,0 +1,42 @@
+#form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 25vh;
+}
+
+#input {
+  margin: 8px;
+  padding: 5px;
+  outline: none;
+  border-width: 1px;
+  border-color: rgb(59, 111, 224);
+  border-radius: 4px;
+  background-color: #eef0f0;
+}
+#signup {
+  padding: 10px 25px;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  background-color: rgb(59, 111, 224);
+  color: white;
+}
+#signup:hover {
+  border-radius: 5px;
+}
+#input:hover {
+  padding: 8px;
+  box-shadow: none;
+}
+.bg-body-tertiary {
+  background-color: rgb(59, 111, 224) !important;
+}
+
+.nav-link,
+.active,
+.navbar-brand {
+  color: white !important;
+}
